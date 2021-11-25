@@ -1,7 +1,7 @@
-# SACODComputer Data Processing Algorithms
+#Computer Data Processing Algorithms
 This repository is for the homework assignments for the Computer Data Processing Algorithms course at St. Petersburg University, spring 2021.
 
-Homework I
+#Homework I
 Build Status
 
 Requirements
