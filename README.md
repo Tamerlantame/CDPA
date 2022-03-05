@@ -5,7 +5,6 @@ This repository is for the homework assignments for the Computer Data Processing
 ---
 
 ## Homework I
-[![Build Status](https://travis-ci.com/bahbyega/CDPA-course-2021.svg?branch=Task-1.1)](https://travis-ci.com/bahbyega/CDPA-course-2021)
 
 
 ### Requirements
@@ -67,7 +66,6 @@ $ ./src/hw-1/build/out
 ---
 
 ## Homework II
-[![Build Status](https://www.travis-ci.com/bahbyega/CDPA-course-2021.svg?branch=Task-2.1)](https://www.travis-ci.com/bahbyega/CDPA-course-2021)
 
 ### Requirements
 - `Conda` package manager is required for installing python packages. You can install it via [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
