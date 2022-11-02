@@ -1,0 +1,12 @@
+pygraphblas==5.1.7.4
+scipy>=1.7.1
+numpy>=1.20.3
+python-igraph>=0.9.6
+numpy>=1.20.3
+python-igraph>=0.9.6
+scipy>=1.7.1
+numpy>=1.20.3
+pygraphblas==5.1.7.4
+PyQt5>=5.15.4
+numpy>=1.20.3
+cupy-cuda114>=9.5.0
