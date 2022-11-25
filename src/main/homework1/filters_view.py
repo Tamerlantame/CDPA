@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QPushButton, QLabel, QWidget
 import config
-from src.main.homework1.backend import computing, folder_computing
+import computing, folder_computing
 from create_filter_view import CreateFilterView
 from saved_view import SavedView
 from two_pictures_view import TwoPicturesView
