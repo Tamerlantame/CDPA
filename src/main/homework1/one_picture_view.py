@@ -3,7 +3,7 @@ from PyQt5.QtCore import QFileInfo
 from PyQt5.QtWidgets import QLabel, QMainWindow, QPushButton, QVBoxLayout, QWidget, QHBoxLayout
 
 from filters_view import FiltersView
-from src.main.homework1.frontend.utils import center
+from utils import center
 
 
 class OnePictureView(QMainWindow):
