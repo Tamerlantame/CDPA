@@ -33,3 +33,4 @@ jobs:
 
         python -m unittest src/test/homework2/task1/bfs.py
         python -m unittest src/test/homework2/task1/sssp.py
+        python -m unittest src/test/homework2/task1/sssp.py
