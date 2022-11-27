@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QLabel, QVBoxLayout, QPushButton, QWidget
 
-import config
-from utils import center
+from src.main.homework1 import config
+from src.main.homework1.frontend.utils import center
 
 
 class SavedView(QMainWindow):

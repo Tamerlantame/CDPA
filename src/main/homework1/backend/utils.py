@@ -1,13 +1,5 @@
-from PyQt5.QtWidgets import QDesktopWidget
 import numpy as np
 from PyQt5.QtGui import QPixmap, QImage
-
-
-def center(item):
-    qr = item.frameGeometry()
-    cp = QDesktopWidget().availableGeometry().center()
-    qr.moveCenter(cp)
-    item.move(qr.topLeft())
 
 
 def pixmap_to_image_with_format(pixmap):

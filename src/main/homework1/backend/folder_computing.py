@@ -3,9 +3,9 @@ from fnmatch import fnmatch
 from os import listdir
 from os.path import join, isfile
 from PyQt5 import QtGui
-import config
-import cpu_computing, gpu_computing
-from utils import pixmap_to_image_with_format, matrix_to_pixmap
+from src.main.homework1 import config
+from src.main.homework1.backend import cpu_computing, gpu_computing
+from src.main.homework1.backend.utils import pixmap_to_image_with_format, matrix_to_pixmap
 from threading import Thread, Condition
 from queue import Queue
 

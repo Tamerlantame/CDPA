@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow, QHBoxLayout, QVBoxLayout, QLineEdit, QPushButton, QWidget, QLabel
 
-from utils import center
+from src.main.homework1.frontend.utils import center
 
 
 class CreateFilterView(QMainWindow):

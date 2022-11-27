@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QWidget, QPushButton, QMainWindow, QVBoxLayout, QFileDialog
-from filters_view import FiltersView
-from one_picture_view import OnePictureView
-from utils import center
+from src.main.homework1.frontend.filters_view import FiltersView
+from src.main.homework1.frontend.one_picture_view import OnePictureView
+from src.main.homework1.frontend.utils import center
 
 
 class MainView(QMainWindow):

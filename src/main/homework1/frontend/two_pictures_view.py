@@ -1,9 +1,9 @@
 import os
 from os import listdir
 from PyQt5.QtWidgets import QMainWindow, QVBoxLayout, QHBoxLayout, QLabel, QPushButton, QWidget
-import config
-from saved_view import SavedView
-from utils import center
+from src.main.homework1 import config
+from src.main.homework1.frontend.saved_view import SavedView
+from src.main.homework1.frontend.utils import center
 
 
 class TwoPicturesView(QMainWindow):
