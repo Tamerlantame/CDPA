@@ -2,7 +2,6 @@ name: Python application
 
 on:
   push:
-    branches: [ main ]
     branches: [ hw2_task01 ]
   pull_request:
     branches: [ main ]
