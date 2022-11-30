@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ HomeWork1 ]
 
 jobs:
   build:
@@ -30,3 +30,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Testing
       run: |
+        python -m unittest src/test/homework1/backend/cpu_computing.py
