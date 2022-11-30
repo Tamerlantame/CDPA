@@ -2,7 +2,7 @@ name: Python application
 
 on:
   push:
-    branches: [ hw2_task02 ]
+    branches: [ hw2_task01 ]
   pull_request:
     branches: [ main ]
 
@@ -30,6 +30,9 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Testing
       run: |
+        python -m unittest src/test/homework2/task3/bfs.py
+        python -m unittest src/test/homework2/task3/sssp.py
+        python -m unittest src/test/homework2/task3/triangles_count.py
 
         python -m unittest src/test/homework2/task1/bfs.py
         python -m unittest src/test/homework2/task1/sssp.py
@@ -37,3 +40,6 @@ jobs:
         python -m unittest src/test/homework2/task2/bfs.py
         python -m unittest src/test/homework2/task2/sssp.py
         python -m unittest src/test/homework2/task2/triangles_count.py
+        python -m unittest src/test/homework2/task3/bfs.py
+        python -m unittest src/test/homework2/task3/sssp.py
+        python -m unittest src/test/homework2/task3/triangles_count.py
