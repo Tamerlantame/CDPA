@@ -33,13 +33,9 @@ jobs:
         python -m unittest src/test/homework2/task3/bfs.py
         python -m unittest src/test/homework2/task3/sssp.py
         python -m unittest src/test/homework2/task3/triangles_count.py
-
         python -m unittest src/test/homework2/task1/bfs.py
         python -m unittest src/test/homework2/task1/sssp.py
         python -m unittest src/test/homework2/task1/sssp.py
-        python -m unittest src/test/homework2/task2/bfs.py
-        python -m unittest src/test/homework2/task2/sssp.py
-        python -m unittest src/test/homework2/task2/triangles_count.py
         python -m unittest src/test/homework2/task3/bfs.py
         python -m unittest src/test/homework2/task3/sssp.py
         python -m unittest src/test/homework2/task3/triangles_count.py
