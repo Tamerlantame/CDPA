@@ -19,7 +19,8 @@ def sssp(m, start):
 
         for i in range(matrix.nrows-1):
             result.min_plus(matrix, out=result, accum=INT64.min)
-
+            if result == matrix:
+                break
         return result
 
     matrix = Matrix.from_lists(m[0], m[1], m[2])
