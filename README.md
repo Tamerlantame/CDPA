@@ -5,7 +5,12 @@ This repository is for the homework assignments for the Computer Data Processing
 ---
 
 ## Homework 1
+### Requirements
+`pip install -r requirements.txt`
 
+[Install NVIDIA CUDA](https://docs.vmware.com/en/VMware-vSphere-Bitfusion/3.0/Example-Guide/GUID-ABB4A0B1-F26E-422E-85C5-BA9F2454363A.html)
+### Run
+`python3 -m src.main.homework1.run`
 ### Task 1:
 Реализовать приложение с графическим интерфейсом пользователя, позволяющее открыть папку с изображениями, выбрать изображение, просмотреть его, просмотреть информацию о нём (размер в пикселях, размер в мегабайтах).
 
