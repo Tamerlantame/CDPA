@@ -18,7 +18,8 @@ def sssp(m, start):
         result[start] = 0
 
         for i in range(matrix.nrows-1):
-            result.min_plus(matrix, out=result, accum=INT64.min)
+            if result == result.min_plus(matrix, out=result, accum=INT64.min):
+                break
 
         return result
 
