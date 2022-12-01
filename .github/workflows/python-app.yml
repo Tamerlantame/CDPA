@@ -30,13 +30,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Testing
       run: |
-        python -m unittest src/test/homework2/task3/bfs.py
-        python -m unittest src/test/homework2/task3/sssp.py
-        python -m unittest src/test/homework2/task3/triangles_count.py
         python -m unittest src/test/homework2/common/common.py
-        python -m unittest src/test/homework2/task1/bfs.py
         python -m unittest src/test/homework2/task1/sssp.py
-        python -m unittest src/test/homework2/task1/sssp.py
-        python -m unittest src/test/homework2/task3/bfs.py
-        python -m unittest src/test/homework2/task3/sssp.py
-        python -m unittest src/test/homework2/task3/triangles_count.py

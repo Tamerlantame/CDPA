@@ -17,7 +17,7 @@ def sssp(m, start):
         result = Vector.sparse(matrix.type, matrix.nrows)
         result[start] = 0
 
-        for i in range(matrix.nrows):
+        for i in range(matrix.nrows-1):
             result.min_plus(matrix, out=result, accum=INT64.min)
 
         return result
